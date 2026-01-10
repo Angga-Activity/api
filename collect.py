@@ -4,8 +4,8 @@ import os
 from datetime import datetime
 import requests
 
-TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
-ADMIN_CHAT_ID = os.environ.get('ADMIN_CHAT_ID')
+TELEGRAM_TOKEN = os.environ.get('8211111180:AAFkOZqZCAM_gKsi6JWDWejXzhgOAymKTkw')
+ADMIN_CHAT_ID = os.environ.get('6865071834')
 
 class handler(BaseHTTPRequestHandler):
     def do_OPTIONS(self):
